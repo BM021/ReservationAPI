@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'ReservationServiceAPI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR,
+        'NAME': BASE_DIR / 'db.sqlite3',
         # 'NAME': 'ReservationAPI',
         # 'USER': 'postgres',
         # 'PASSWORD': '2112',
